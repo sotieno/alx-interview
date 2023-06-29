@@ -1,4 +1,4 @@
-# Technical Interview
+# Technical Interview Preparation
 
 ## Projects
 
