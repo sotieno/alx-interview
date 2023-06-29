@@ -14,10 +14,6 @@ def pascal_triangle(n):
     Assumption: n is an integer
     """
 
-    # Check if n is an integer
-    if type(n) is not int:
-        raise TypeError("n must be an integer")
-
     # Check if n is less than or equal to 0
     if n <= 0:
         return []
