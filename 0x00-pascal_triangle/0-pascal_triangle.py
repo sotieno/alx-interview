@@ -4,6 +4,7 @@ Defines function that returns a list of lists of integers
 representing the Pascal's triangle of n
 """
 
+
 def pascal_triangle(n):
     """
     Creates a list of lists of integers
@@ -31,7 +32,7 @@ def pascal_triangle(n):
             # Each value is the sum of the two values above it
             row.append(triangle[i - 1][j - 1] + triangle[i - 1][j])
 
-        row.append(1) # Each row ends with 1
-        triangle.append(row) # Add completed row to triangle
+        row.append(1)  # Each row ends with 1
+        triangle.append(row)  # Add completed row to triangle
 
-    return triangle # Return Pascal's triangle
+    return triangle  # Return Pascal's triangle
